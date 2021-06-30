@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Playyyyyy</string>
+    <string name="track">Tracks</string>
+    <string name="album">Album</string>
+    <string name="artist">Artist</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tracks">Tracks</string>
+    <string name="sing_music">sing music</string>
+    <string name="song_music">song music</string>
+    <string name="run_time">Run time</string>
+    <string name="max_time_music">max time music</string>
+    <string name="name">Name</string>
+    <string name="artists">Artists</string>
+    <string name="date">Date</string>
+    <string name="year_of_release">Year of release</string>
+    <string name="share">Share</string>
+    <string name="tracking_details">Tracking details</string>
+    <string name="albums">Albums</string>
+
+    <string name="setting">Setting</string>
+    <string name="arranged_in_order">Arranged in order</string>
+    <string name="no_song">No Song Music</string>
+    <string name="year_release">0</string>
+    <string name="search_library">Search Library</string>
+    <string name="song">Song</string>
+    <string name="dialog">Music Detail</string>
+    <string name="name_song">Name Song</string>
+    <string name="name_sing">Name Sing</string>
+    <string name="time">Time</string>
+    <string name="chi_ti_t">Chi tiết</string>
+    <string name="textview">TextView</string>
+    <string name="th_lo_i">Thể loại</string>
+    <string name="d_i_b_i_h_t">Độ dài bài hát</string>
+    <string name="s_c_a_b_i_h_t">Số của bài hát</string>
+    <string name="nh_d_ng">Định dạng</string>
+    <string name="k_ch_th_c">Kích thước</string>
+    <string name="ng_d_n">Đường dẫn</string>
+    <string name="facebook_app_id">FacebookAppID</string>
+
+
+
+</resources>

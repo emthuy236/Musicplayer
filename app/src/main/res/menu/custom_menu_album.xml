@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+        android:title="@string/year_of_release"
+        android:id="@+id/year_release"/>
+    <item
+        android:title="@string/name"
+        android:id="@+id/name_album"/>
+    <item
+        android:title="@string/artist"
+        android:id="@+id/album_artist"/>
+</menu>

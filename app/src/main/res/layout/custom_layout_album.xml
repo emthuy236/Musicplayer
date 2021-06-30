@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:id="@+id/im_album"
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_ablbum_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:singleLine="true"
+        android:text="Name Song"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:textColor="@color/graybackground"
+            android:id="@+id/tv_ablbum_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="7dp"
+            android:gravity="end"
+            android:text="Name Sing |"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:textSize="@dimen/_8sdp" />
+        <TextView
+            android:layout_weight="1"
+           android:layout_gravity="center"
+            android:textColor="@color/graybackground"
+            android:id="@+id/tv_over_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="2dp"
+            android:gravity="start"
+            android:text="Over Song"
+            android:textSize="@dimen/_8sdp" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

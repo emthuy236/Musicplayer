@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".activity.HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_galaxy"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/ic_galaxy"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:padding="@dimen/_2sdp"
+                android:layout_toEndOf="@+id/img_galaxy"
+                android:src="@drawable/ic_music"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relative">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tablayoutHome"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/selectableItemBackground"
+                android:backgroundTint="@color/whitesmoke"
+                app:tabIndicator="@color/white"
+                app:tabSelectedTextColor="@color/white"
+                app:tabTextColor="@color/gray" />
+        </RelativeLayout>
+
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:layout_below="@+id/relative1"
+                android:id="@+id/viewpagerHome"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/custom_border_main" />
+
+    </RelativeLayout>
+
+    <com.ezstudio.playyyyyy.bottomsheet.HandleBottomSheet
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true">
+    </com.ezstudio.playyyyyy.bottomsheet.HandleBottomSheet>
+    
+
+</RelativeLayout>

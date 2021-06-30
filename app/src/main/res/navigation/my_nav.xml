@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/splashFragment2">
+    <fragment
+        android:id="@+id/splashFragment2"
+        android:name="com.ezstudio.playyyyyy.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment2_to_viewPagerFragmentFlash"
+            app:destination="@id/viewPagerFragmentFlash" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPagerFragmentFlash"
+        android:name="com.ezstudio.playyyyyy.boarding.fragments.screen2.ViewPagerFragmentFlash"
+        android:label="fragment_view_pager_flash"
+        tools:layout="@layout/fragment_view_pager_flash" >
+        <action
+            android:id="@+id/action_viewPagerFragmentFlash_to_homeActivity"
+            app:destination="@id/homeActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.ezstudio.playyyyyy.activity.HomeActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+</navigation>

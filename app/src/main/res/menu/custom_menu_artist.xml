@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/white"
+        android:title="@string/name"
+        android:icon="@drawable/ic_vector"
+        android:id="@+id/name_artist"/>
+    <item
+
+        android:title="@string/date"
+        android:id="@+id/date_artist"/>
+</menu>
